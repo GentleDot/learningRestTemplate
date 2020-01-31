@@ -1,17 +1,11 @@
 package net.gentledot.myNaver.domains;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
-import lombok.Setter;
 
 import java.util.Date;
 import java.util.List;
 
 @Getter
-@Setter
-@Builder
-@AllArgsConstructor
 public class Search {
     /*
     lastBuildDate	datetime	검색 결과를 생성한 시간이다.
